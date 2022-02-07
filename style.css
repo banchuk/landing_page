@@ -16,6 +16,9 @@ html, body{
     color: white;
     font-weight: bold;
     justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 50px;
     background-color: #1f2937;
 }
@@ -34,9 +37,7 @@ html, body{
     font-size: 18px;
     color: #E5E7EB;
 }
-li{
-    list-style: none;
-}
+
 .first{
     display: flex;
     justify-content: space-around;
@@ -72,4 +73,18 @@ li{
 }
 .second{
     background-color: #F9FAF8;
+    display: flex;
+
+
+
+}
+.second .text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 30px;
+}
+.one, .two, .three, .four{
+    align-self: auto;
 }
