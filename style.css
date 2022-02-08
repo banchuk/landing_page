@@ -74,9 +74,7 @@ html, body{
 .second{
     background-color: #F9FAF8;
     display: flex;
-
-
-
+    flex-direction: column;
 }
 .second .text {
     color: #1f2937;
@@ -87,4 +85,7 @@ html, body{
 }
 .one, .two, .three, .four{
     align-self: auto;
+}
+.inside{
+    display: flex;
 }
