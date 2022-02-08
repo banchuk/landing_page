@@ -45,6 +45,10 @@ html, body{
     padding-bottom: 50px;
     background-color: #1f2937;
 }
+ .first img{
+    max-width: 300px;
+    max-height: 300px;
+}
 .left{
     max-width: 400px;
 }
@@ -76,16 +80,28 @@ html, body{
     display: flex;
     flex-direction: column;
 }
+.second img{
+    max-width: 300px;
+    max-height: 300px;
+}
 .second .text {
     color: #1f2937;
     font-size: 36px;
     font-weight: 800;
     text-align: center;
     padding-top: 30px;
+    margin-bottom: 20px;
 }
 .one, .two, .three, .four{
     align-self: auto;
+    display: flex;
+    flex-direction: column;
+    
 }
 .inside{
     display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
 }
